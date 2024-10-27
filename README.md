@@ -2,8 +2,9 @@
 Ex02-Linux Process API-fork(), wait(), exec()
 # Ex02-OS-Linux-Process API - fork(), wait(), exec()
 Operating systems Lab exercise
-
-
+## NAME: SANTHOSH T
+## REGISTER NO: 212223220100
+## DEPARTMENT: INFORMATION TECHNOLOGY
 # AIM:
 To write C Program that uses Linux Process API - fork(), wait(), exec()
 
@@ -24,7 +25,7 @@ Test the C Program for the desired output.
 # PROGRAM:
 
 ## C Program to print process ID and parent Process ID using Linux API system calls
-```
+```C
 #include <stdio.h>
 #include <sys/types.h>
 #include <unistd.h>
@@ -80,7 +81,7 @@ The process id of parent function: 61
 
 ## C Program to create new process using Linux API system calls fork() and exit()
 
-```
+```C
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
@@ -127,7 +128,7 @@ My parent pid is: 96
 
 ## C Program to execute Linux system commands using Linux API system calls exec() family
 
-```
+```C
 
 #include <stdio.h>
 #include <stdlib.h>
