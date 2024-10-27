@@ -15,7 +15,7 @@ int main() {
     
     if (pid == 0)
     {
-        // This is the child process
+        // This is the child process 
         execlp("ps", "ps", "ax", NULL);
         // If execlp fails, print an error message
         perror("execlp");
